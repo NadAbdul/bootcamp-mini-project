@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.content{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.left-container{
+  margin: 50px;
+  padding: 125px;
+  padding-top: 200px;
+  padding-right: 0px;
+}
+
+.left-container-name{
+  padding-bottom: 25px;
+  font-size: larger;
+}
+
+.left-container-description{
+  padding-bottom: 30px;
+  font-size: large;
+}
+
+.github-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  background-color: #4384D1;
+  border-color: 0px #4384D1;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 3px;
+  img {
+    width: 20px;
+  } 
+ }
+ 
+ .linkedin-link{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  color: #4384D1;
+  background-color: white;
+  border-color: #4384D1;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 3px;
+  img {
+    width: 20px;
+  } 
+ }
+ 
+
+.right-container{
+  margin: 50px;
+  padding: 50px;
+
+}
+
+.photo{
+  width: 446px;
+}
+
+
